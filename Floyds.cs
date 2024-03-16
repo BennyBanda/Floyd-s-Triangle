@@ -23,6 +23,7 @@ namespace w3p
             Console.Write("Displaying the Floyd's Triangle with {0} number of rows: ", convertedNumber);
             Console.Write("\n\n");
 
+            // Nested loops
             for(loopedNumber1 = 1;loopedNumber1 <=convertedNumber; loopedNumber1 ++) //first loop
             {
                 if (loopedNumber1 % 2 == 0)
